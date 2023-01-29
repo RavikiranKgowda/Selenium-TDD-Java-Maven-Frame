@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up the testdata and config files]]>
+    </line>
+    <line>
+      <![CDATA[Settings done]]>
+    </line>
+    <line>
+      <![CDATA[Launching browser - Chrome and and URL - https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Entering username - standard_user]]>
+    </line>
+    <line>
+      <![CDATA[Entering password - secret_sauce]]>
+    </line>
+    <line>
+      <![CDATA[Clicking login button]]>
+    </line>
+    <line>
+      <![CDATA[report generated successfully]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-29T02:58:51 GMT-05:00" name="Default suite" finished-at="2023-01-29T02:59:03 GMT-05:00" duration-ms="11983">
+    <groups>
+    </groups>
+    <test started-at="2023-01-29T02:58:51 GMT-05:00" name="Default test" finished-at="2023-01-29T02:59:03 GMT-05:00" duration-ms="11983">
+      <class name="com.framework.tests.LoginTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.framework.tests.LoginTest@53ce1329]" started-at="2023-01-29T02:58:49 GMT-05:00" name="setupSuite" finished-at="2023-01-29T02:58:51 GMT-05:00" duration-ms="2113" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up the testdata and config files]]>
+            </line>
+            <line>
+              <![CDATA[Settings done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.tests.LoginTest@53ce1329]" started-at="2023-01-29T02:58:51 GMT-05:00" name="setup" finished-at="2023-01-29T02:58:57 GMT-05:00" duration-ms="5570" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching browser - Chrome and and URL - https://www.saucedemo.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Testing_loginToMyApplication(java.util.Map)[pri:0, instance:com.framework.tests.LoginTest@53ce1329]" started-at="2023-01-29T02:58:57 GMT-05:00" name="Testing_loginToMyApplication" data-provider="testData" finished-at="2023-01-29T02:59:00 GMT-05:00" duration-ms="3535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseName=Testing_loginToMyApplication, Username=standard_user, DOB=6/23/02, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering username - standard_user]]>
+            </line>
+            <line>
+              <![CDATA[Entering password - secret_sauce]]>
+            </line>
+            <line>
+              <![CDATA[Clicking login button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Testing_loginToMyApplication -->
+        <test-method is-config="true" signature="ScreenshotCapture(org.testng.ITestResult)[pri:0, instance:com.framework.tests.LoginTest@53ce1329]" started-at="2023-01-29T02:59:00 GMT-05:00" name="ScreenshotCapture" finished-at="2023-01-29T02:59:02 GMT-05:00" duration-ms="1917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Testing_loginToMyApplication status=SUCCESS method=LoginTest.Testing_loginToMyApplication(java.util.Map)[pri:0, instance:com.framework.tests.LoginTest@53ce1329] output=Entering username - standard_user]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[report generated successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ScreenshotCapture -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.LoginTest@53ce1329]" started-at="2023-01-29T02:59:02 GMT-05:00" name="tearDown" finished-at="2023-01-29T02:59:03 GMT-05:00" duration-ms="742" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
