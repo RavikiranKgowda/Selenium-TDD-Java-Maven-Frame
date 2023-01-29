@@ -34,6 +34,7 @@ public class BaseClass {
 		report = new ExtentReports();
 		report.attachReporter(extent);
 		Reporter.log("Settings done", true);
+		//Added comment
 	}
 
 	@BeforeClass
