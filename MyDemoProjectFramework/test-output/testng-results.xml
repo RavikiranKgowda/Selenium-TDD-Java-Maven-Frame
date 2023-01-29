@@ -26,12 +26,12 @@
       <![CDATA[Closing browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-01-29T02:58:51 GMT-05:00" name="Default suite" finished-at="2023-01-29T02:59:03 GMT-05:00" duration-ms="11983">
+  <suite started-at="2023-01-29T14:27:56 GMT-05:00" name="Default suite" finished-at="2023-01-29T14:28:13 GMT-05:00" duration-ms="16178">
     <groups>
     </groups>
-    <test started-at="2023-01-29T02:58:51 GMT-05:00" name="Default test" finished-at="2023-01-29T02:59:03 GMT-05:00" duration-ms="11983">
+    <test started-at="2023-01-29T14:27:56 GMT-05:00" name="Default test" finished-at="2023-01-29T14:28:13 GMT-05:00" duration-ms="16178">
       <class name="com.framework.tests.LoginTest">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.framework.tests.LoginTest@53ce1329]" started-at="2023-01-29T02:58:49 GMT-05:00" name="setupSuite" finished-at="2023-01-29T02:58:51 GMT-05:00" duration-ms="2113" status="PASS">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.framework.tests.LoginTest@5b239d7d]" started-at="2023-01-29T14:27:45 GMT-05:00" name="setupSuite" finished-at="2023-01-29T14:27:56 GMT-05:00" duration-ms="11849" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting up the testdata and config files]]>
@@ -41,14 +41,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.tests.LoginTest@53ce1329]" started-at="2023-01-29T02:58:51 GMT-05:00" name="setup" finished-at="2023-01-29T02:58:57 GMT-05:00" duration-ms="5570" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.tests.LoginTest@5b239d7d]" started-at="2023-01-29T14:27:56 GMT-05:00" name="setup" finished-at="2023-01-29T14:28:05 GMT-05:00" duration-ms="8461" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching browser - Chrome and and URL - https://www.saucedemo.com/]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Testing_loginToMyApplication(java.util.Map)[pri:0, instance:com.framework.tests.LoginTest@53ce1329]" started-at="2023-01-29T02:58:57 GMT-05:00" name="Testing_loginToMyApplication" data-provider="testData" finished-at="2023-01-29T02:59:00 GMT-05:00" duration-ms="3535" status="PASS">
+        <test-method signature="Testing_loginToMyApplication(java.util.Map)[pri:0, instance:com.framework.tests.LoginTest@5b239d7d]" started-at="2023-01-29T14:28:06 GMT-05:00" name="Testing_loginToMyApplication" data-provider="testData" finished-at="2023-01-29T14:28:10 GMT-05:00" duration-ms="3876" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,11 +68,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Testing_loginToMyApplication -->
-        <test-method is-config="true" signature="ScreenshotCapture(org.testng.ITestResult)[pri:0, instance:com.framework.tests.LoginTest@53ce1329]" started-at="2023-01-29T02:59:00 GMT-05:00" name="ScreenshotCapture" finished-at="2023-01-29T02:59:02 GMT-05:00" duration-ms="1917" status="PASS">
+        <test-method is-config="true" signature="ScreenshotCapture(org.testng.ITestResult)[pri:0, instance:com.framework.tests.LoginTest@5b239d7d]" started-at="2023-01-29T14:28:10 GMT-05:00" name="ScreenshotCapture" finished-at="2023-01-29T14:28:12 GMT-05:00" duration-ms="1834" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testing_loginToMyApplication status=SUCCESS method=LoginTest.Testing_loginToMyApplication(java.util.Map)[pri:0, instance:com.framework.tests.LoginTest@53ce1329] output=Entering username - standard_user]]]>
+                <![CDATA[[TestResult name=Testing_loginToMyApplication status=SUCCESS method=LoginTest.Testing_loginToMyApplication(java.util.Map)[pri:0, instance:com.framework.tests.LoginTest@5b239d7d] output=Entering username - standard_user]]]>
               </value>
             </param>
           </params>
@@ -82,7 +82,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- ScreenshotCapture -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.LoginTest@53ce1329]" started-at="2023-01-29T02:59:02 GMT-05:00" name="tearDown" finished-at="2023-01-29T02:59:03 GMT-05:00" duration-ms="742" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.LoginTest@5b239d7d]" started-at="2023-01-29T14:28:12 GMT-05:00" name="tearDown" finished-at="2023-01-29T14:28:13 GMT-05:00" duration-ms="612" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing browser]]>
