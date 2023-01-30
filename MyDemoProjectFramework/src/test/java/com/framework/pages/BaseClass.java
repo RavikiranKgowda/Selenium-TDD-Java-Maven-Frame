@@ -38,13 +38,13 @@ public class BaseClass {
 		//Added comment
 	}
 	
-	
+	@Parameters({"browser","url"})
 	@BeforeClass
-	public void setup() {
+	public void setup(String browser, String url) {
 		
 		Reporter.log("Launching browser - "+config.getBrowser()+" and and URL - "+config.getTestingUrl(), true);
 //		driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getTestingUrl());
-		driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getTestingUrl());
+		driver = BrowserFactory.startApplication(driver, browser, url);
 
 	}
 
